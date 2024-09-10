@@ -9,7 +9,7 @@ pygame.init()
 
 #Criando a tela.
 
-pygame.display.set_caption
+pygame.display.set_caption("Jogo Snake Python")
 
 largura, altura = 1200, 800
 
@@ -27,3 +27,8 @@ vermelho = (255, 0, 0)
 
 verde = (0, 255, 0)
 
+#Parâmetros do personagem
+
+tamanho_quadrado = 20
+
+Velocidade_jogo = 15
