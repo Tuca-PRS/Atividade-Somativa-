@@ -40,7 +40,3 @@ def gerar_comida():
     comida_y = round(random.randrange(0, altura - tamanho_quadrado) / float(tamanho_quadrado)) * float(tamanho_quadrado)
 
     return comida_x, comida_y
-
-def desenhar_comida(tamanho, comida_x, comida_y):
-
-    pygame.draw.rect(tela, verde, [comida_x, comida_y, tamanho, tamanho])
