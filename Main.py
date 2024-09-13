@@ -44,3 +44,17 @@ def gerar_comida():
 def desenhar_comida(tamanho, comida_x, comida_y):
 
     pygame.draw.rect(tela, verde, [comida_x, comida_y, tamanho, tamanho])
+
+def desenhar_cobra(tamanho, pixels):
+
+    for pixel in pixels:
+
+        pygame.draw.rect(tela, branca, [pixel[0], pixel[1], tamanho, tamanho])
+
+def desenhar_pontuacao(pontuacao):
+
+    fonte = pygame.font.SysFont("Helvetica", 35)
+
+    texto = fonte.render(f"Pontos: {pontuacao}", True, vermelha)
+
+    tela.blit(texto, [1, 1])
