@@ -1,9 +1,6 @@
 #Configurações iniciais - é necessário instalar o Pygame.
 import random
-from fastapi import FastAPI
 import pygame
-
-app = FastAPI()
 
 #Iniciando o Pygame.
 
