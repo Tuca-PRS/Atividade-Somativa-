@@ -57,6 +57,6 @@ def desenhar_pontuacao(pontuacao):
 
     fonte = pygame.font.SysFont("Helvetica", 35)
 
-    texto = fonte.render(f"Pontos: {pontuacao}", True, vermelha)
+    texto = fonte.render(f"Pontos: {pontuacao}", True, vermelho)
 
     tela.blit(texto, [1, 1])
