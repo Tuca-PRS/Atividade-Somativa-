@@ -1,7 +1,7 @@
 import pygame
 import unittest
 
-from src.Main import gerar_comida, selecionar_velocidade, largura, altura, tamanho_quadrado
+from Main import gerar_comida, selecionar_velocidade, largura, altura, tamanho_quadrado
 
 
 class TestSnakeGame(unittest.TestCase):
@@ -37,4 +37,4 @@ class TestSnakeGame(unittest.TestCase):
         self.assertEqual(velocidade_y, 0)
 
 if __name__ == '__Main__':
-    unittest.main()
+    unittest.Main()
