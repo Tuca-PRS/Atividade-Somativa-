@@ -1,4 +1,4 @@
-# tests/test_main.py
+## tests/test_main.py
 import unittest
 from main import gerar_comida, largura, altura, tamanho_quadrado
 
