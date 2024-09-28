@@ -47,10 +47,6 @@ jobs:
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
 
-      - name: Run tests
-        run: |
-          pytest test/
-
       - name: Test with pytest
         run: |
           pip install pytest pytest-cov pytest-asyncio
