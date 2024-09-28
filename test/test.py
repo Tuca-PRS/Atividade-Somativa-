@@ -1,7 +1,7 @@
 import pygame
 import unittest
 
-from Main import gerar_comida, selecionar_velocidade, largura, altura, tamanho_quadrado
+from main import gerar_comida, selecionar_velocidade, largura, altura, tamanho_quadrado
 
 
 class TestSnakeGame(unittest.TestCase):
