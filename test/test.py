@@ -37,4 +37,4 @@ class TestSnakeGame(unittest.TestCase):
         self.assertEqual(velocidade_y, 0)
 
 if __name__ == '__Main__':
-    unittest.Main()
+    unittest.main()
