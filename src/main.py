@@ -171,4 +171,5 @@ def rodar_jogo():
 
         relogio.tick(velocidade_jogo)
 
-rodar_jogo()
+if __name__ == "__main__":
+    rodar_jogo()
