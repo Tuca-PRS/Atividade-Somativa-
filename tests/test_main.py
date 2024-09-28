@@ -1,6 +1,6 @@
 ## tests/test_main.py
 import unittest
-from main import gerar_comida, largura, altura, tamanho_quadrado
+from src.main import gerar_comida, largura, altura, tamanho_quadrado
 
 class TestGerarComida(unittest.TestCase):
 
